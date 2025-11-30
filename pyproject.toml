@@ -32,9 +32,9 @@ dependencies = [
 weather-mcp = "weather_mcp.server:main"
 
 [project.urls]
-Homepage = "https://github.com/YOUR_USERNAME/weather-mcp"
-Repository = "https://github.com/YOUR_USERNAME/weather-mcp"
-Issues = "https://github.com/YOUR_USERNAME/weather-mcp/issues"
+Homepage = "https://github.com/jkf87/weather-mcp"
+Repository = "https://github.com/jkf87/weather-mcp"
+Issues = "https://github.com/jkf87/weather-mcp/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/weather_mcp"]

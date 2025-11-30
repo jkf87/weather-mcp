@@ -13,13 +13,13 @@
 ### GitHub에서 설치
 
 ```bash
-pip install git+https://github.com/YOUR_USERNAME/weather-mcp.git
+pip install git+https://github.com/jkf87/weather-mcp.git
 ```
 
 ### 소스에서 설치
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/weather-mcp.git
+git clone https://github.com/jkf87/weather-mcp.git
 cd weather-mcp
 pip install -e .
 ```
