@@ -48,18 +48,26 @@ code ~/.gemini/settings.json
 
 #### Windows에서 빠르게 열기
 
-```powershell
+**방법 1**: `Win + R` 누르고 아래 경로를 그대로 복사해서 붙여넣기
+
+```
 # Gemini CLI
-notepad %USERPROFILE%\.gemini\settings.json
+%USERPROFILE%\.gemini
 
 # Claude Desktop
-notepad %APPDATA%\Claude\claude_desktop_config.json
+%APPDATA%\Claude
 
 # Antigravity
-notepad %USERPROFILE%\.antigravity\mcp.json
+%USERPROFILE%\.antigravity
 ```
 
-**파일 탐색기에서 열기**: `Win + R` → 경로 붙여넣기
+> `%USERPROFILE%`, `%APPDATA%`는 그대로 복사해서 붙여넣으세요. Windows가 자동으로 `C:\Users\사용자이름\...` 경로로 변환합니다.
+
+**방법 2**: PowerShell/CMD에서 메모장으로 열기
+
+```powershell
+notepad %USERPROFILE%\.gemini\settings.json
+```
 
 ---
 
