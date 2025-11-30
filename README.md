@@ -20,6 +20,49 @@ pip install -e .
 
 ## MCP 클라이언트 설정
 
+### 설정 파일 빠르게 열기
+
+| 클라이언트 | macOS | Windows |
+|-----------|-------|---------|
+| **Gemini CLI** | `~/.gemini/settings.json` | `%USERPROFILE%\.gemini\settings.json` |
+| **Claude Desktop** | `~/Library/Application Support/Claude/claude_desktop_config.json` | `%APPDATA%\Claude\claude_desktop_config.json` |
+| **Antigravity** | `~/.antigravity/mcp.json` | `%USERPROFILE%\.antigravity\mcp.json` |
+
+#### macOS에서 빠르게 열기
+
+```bash
+# Gemini CLI
+open ~/.gemini/settings.json
+
+# Claude Desktop
+open ~/Library/Application\ Support/Claude/claude_desktop_config.json
+
+# Antigravity
+open ~/.antigravity/mcp.json
+
+# 또는 VS Code로 열기
+code ~/.gemini/settings.json
+```
+
+**Finder에서 열기**: `Cmd + Shift + G` → 경로 붙여넣기
+
+#### Windows에서 빠르게 열기
+
+```powershell
+# Gemini CLI
+notepad %USERPROFILE%\.gemini\settings.json
+
+# Claude Desktop
+notepad %APPDATA%\Claude\claude_desktop_config.json
+
+# Antigravity
+notepad %USERPROFILE%\.antigravity\mcp.json
+```
+
+**파일 탐색기에서 열기**: `Win + R` → 경로 붙여넣기
+
+---
+
 ### Claude Code
 
 ```bash
