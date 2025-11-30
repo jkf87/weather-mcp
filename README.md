@@ -116,6 +116,23 @@ AI 어시스턴트에게 다음과 같이 요청할 수 있습니다:
 - "부산이랑 제주 날씨 비교해줘"
 - "오늘 대전 날씨 어때?"
 
+## 삭제 방법
+
+### 패키지 삭제
+
+```bash
+pip uninstall weather-mcp
+```
+
+### MCP 설정 제거
+
+각 클라이언트의 설정 파일에서 `weather-server` 항목을 삭제하세요:
+
+- **Claude Code**: `claude mcp remove weather-server`
+- **Claude Desktop**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Gemini CLI**: `~/.gemini/settings.json`
+- **Antigravity**: `~/.antigravity/mcp.json`
+
 ## 직접 실행 (개발/테스트용)
 
 ```bash
