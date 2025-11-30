@@ -10,12 +10,8 @@
 
 ## 설치 방법
 
-### 소스에서 설치
-
 ```bash
-git clone https://github.com/jkf87/weather-mcp.git
-cd weather-mcp
-pip install -e .
+pip install git+https://github.com/jkf87/weather-mcp.git
 ```
 
 ## MCP 클라이언트 설정
