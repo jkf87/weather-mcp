@@ -10,12 +10,6 @@
 
 ## 설치 방법
 
-### GitHub에서 설치
-
-```bash
-pip install git+https://github.com/jkf87/weather-mcp.git
-```
-
 ### 소스에서 설치
 
 ```bash
